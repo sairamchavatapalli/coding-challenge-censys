@@ -7,7 +7,7 @@ This script uses censys api's to get the list of certificates and convert the ce
 
 ## Installation
 
-Download the python, poetry libraries
+Download the python and poetry libraries
 
 Use the poetry package manager to install packages defined in `pyproject.toml` file
 
@@ -33,7 +33,7 @@ Successfully authenticated for your@email.com
 run the index.py files where it has main logic to find unexpired certificates and generate csv files 
 
 
-- Clone the repository from the  [git](https://censys-python.readthedocs.io/en/stable/usage-v2.html)
+- Clone the repository from the  [https://github.com/sairamchavatapalli/coding-challenge-censys.git](https://github.com/sairamchavatapalli/coding-challenge-censys.git)
 - Move to `coding-assignment` folder
 - Run the below command
 
