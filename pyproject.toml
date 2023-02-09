@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "coding-assignment"
+version = "0.1.0"
+description = "sample coding assignment script for certificate validation"
+authors = ["sairamam chavatapalli <scdpf@umsystem.edu>"]
+readme = "README.md"
+packages = [{include = "coding_assignment"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+censys = "^2.1.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
